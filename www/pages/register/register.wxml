@@ -1,0 +1,16 @@
+<view>
+	<form class="login-form">
+		<view class="username">
+			<input type="text" bindinput="bindUsername" placeholder="用户名"/>
+		</view>
+		<view class="password">
+			<input type="text" bindinput="bindPassword" password="true" placeholder="密码"/>
+		</view>
+		<!-- <view class="describtion">
+			<textarea placeholder="一句话简介，限30个字符"></textarea>
+		</view> -->
+		<view class="login-btn">
+			<button bindtap="commit">注册</button>
+		</view>
+	</form>
+</view>

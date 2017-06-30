@@ -1,0 +1,13 @@
+<view class="editor">
+	<view class="title-picture" bindtap="choosePic">
+		<image wx:if="{{article.picture_url}}" src="{{article.picture_url}}"/>
+		<text wx:else>点击上传图片,可为空</text>
+	</view>
+	<view class="article-title">
+		<input type="text" placeholder="请输入一个标题" placeholder-style="font-family: 'Microsoft YaHei'" bindinput="inputTitle" value="{{article.title}}"/>
+	</view>
+	<view>
+		<textarea placeholder="请输入内容" bindinput="inputContent" value="{{article.content}}"></textarea>
+	</view>
+	<view class="release-btn"><text bindtap="release">发布</text></view>
+</view>

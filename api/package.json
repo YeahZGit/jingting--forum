@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "node project",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "wechat",
+    "node",
+    "api"
+  ],
+  "author": "yeahz",
+  "license": "MIT",
+  "dependencies": {
+    "body-parser": "^1.17.2",
+    "crypto": "0.0.3",
+    "express": "^4.15.3",
+    "fs": "0.0.1-security",
+    "jsonwebtoken": "^7.4.1",
+    "mongoose": "^4.10.4",
+    "multer": "^1.3.0",
+    "path": "^0.12.7",
+    "some-http-error": "^0.2.0"
+  }
+}

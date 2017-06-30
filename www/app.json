@@ -1,0 +1,43 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/editor/editor",
+    "pages/detial/detial",
+    "pages/infor/infor",
+    "pages/logs/logs",
+    "pages/about/about",
+    "pages/login/login",
+    "pages/register/register",
+    "pages/activity/activity"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "white",
+    "navigationBarTitleText": "敬亭论坛",
+    "navigationBarTextStyle": "black",
+    "enablePullDownRefresh": true,
+    "backgroundColor": "#ecf0f1"
+  },
+  "tabBar": {
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "首页",
+        "iconPath": "images/home.png",
+        "selectedIconPath": "images/home.png"
+      },
+      {
+        "pagePath": "pages/editor/editor",
+        "text": "发帖",
+        "iconPath": "images/write.png",
+        "selectedIconPath": "images/write.png"
+      },
+      {
+        "pagePath": "pages/infor/infor",
+        "text": "我",
+        "iconPath": "images/me.png",
+        "selectedIconPath": "images/me.png"
+      }
+    ]
+  }
+}

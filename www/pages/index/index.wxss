@@ -1,0 +1,149 @@
+view{
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+}
+
+swiper{
+	height: 180px;
+	width: 100%;
+}
+
+.activity navigator{
+	width: 100%;
+	height: 100%;
+}
+
+.activity-img{
+	height: 100%;
+	width: 100%;
+}
+
+.specials-item, .article-item{
+	padding: 5px 8px;
+	background-color: white;
+	margin-top: 8px;
+	box-shadow: 0px 0px 4px #bdc3c7;
+}
+
+.specials-item:first-child{
+	margin-top: 0px;
+}
+
+.top-title-box{
+	margin-top: 3px;
+	display: flex;
+	align-items: center;
+}
+
+.top-icon{
+	border: 1px solid blue;
+	border-radius: 2px;
+	padding: 1px;
+	font-size: 12px;
+	color: blue;
+}
+
+.top-title{
+	margin-left: 10px;
+}
+
+.top-content{
+	color: #bdc3c7;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	font-size: 13px;
+	max-height: 35px;
+	overflow: hidden;
+}
+
+.create-infor{
+	margin-top: 10px;
+	color: #bdc3c7;
+	position: relative;
+	display: flex;
+	align-items: center;
+}
+
+.create-infor image{
+	width: 14px;
+	height: 14px;
+	position: absolute;
+	right: 18px;
+}
+
+.create-user-name{
+	font-size: 12px;
+}
+
+.create-time{
+	font-size: 10px;
+	margin-left: 3px;
+}
+
+.comment-count{
+	position: absolute;
+	font-size: 12px;
+	right: 0px;
+}
+
+.article-list-title{
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.author-pic{
+	height: 20px;
+	width: 20px;
+	border-radius: 100%;
+}
+
+.article-list-title text{
+	margin-left: 8px;
+}
+
+.release-text{
+	color: #bdc3c7;
+}
+
+.article-list-content{
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.article-list-content .content{
+	max-height: 80px;
+	overflow: hidden;
+}
+
+.article-list-content .title-img-box{
+	max-height: 180px;
+	overflow: hidden;
+	margin-top: 10px;	
+}
+
+.article-list-content .title-img{
+	width: 100%;
+}
+
+.article-list-content view{
+	color: #bdc3c7;
+}
+
+.article-list .article-comment{
+	margin-top: 10px;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.article-list .article-comment image{
+	width: 14px;
+	height: 14px;
+}
+
+.article-list .article-comment text{
+	margin: 0px 8px;
+	color: #bdc3c7;
+	font-size: 12px;
+}

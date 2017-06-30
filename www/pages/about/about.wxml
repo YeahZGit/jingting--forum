@@ -1,0 +1,9 @@
+<view>
+	<view class="logo-box">
+		<image src="../../images/logo.png"/>
+		<view>当前版本 V1.0.0</view>
+	</view>
+	<view class="about-content">
+		<text>敬亭论坛小程序为软件工程课程设计项目，本项目由项目小组——歌后詹红萍后援团(小组名)自主选题并合作完成。项目名称拟定为敬亭论坛，技术选型为微信小程序，并提供后台管理功能，计划向所有校园微信用户提供社交服务。</text>
+	</view>
+</view>

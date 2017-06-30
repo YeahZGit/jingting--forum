@@ -1,0 +1,39 @@
+page{
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+	background-color: white;
+}
+
+.login-form input{
+	height: 100%;
+}
+
+.username{
+	border-top: 1px solid #ecf0f1;
+	border-bottom: 1px solid #ecf0f1;
+	height: 40px;
+}
+
+.password{
+	border-bottom: 1px solid #ecf0f1;
+	height: 40px;
+}
+
+.login-btn{
+	margin-top: 15px;
+	text-align: center;
+}
+
+.login-btn button{
+	width: 70%;
+	height: 40px;
+	background-color: #3498db;
+	color: white;
+	font-size: 16px;
+}
+
+.register-link{
+	margin-top: 15px;
+	text-align: center;
+	color: #95a5a6;
+}

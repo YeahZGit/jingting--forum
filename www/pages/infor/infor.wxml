@@ -1,0 +1,31 @@
+<view>
+	<view class="infor-head">
+		<text class="editor-btn" wx:if="{{!editor}}" bindtap="editorInfor">编辑</text>
+		<text class="editor-btn" wx:else bindtap="editorFinish">完成</text>
+		<view class="user-pic">
+			<image src="{{user.picture_url}}" />
+			<view bindtap="choosePic" wx:if="{{editor}}"></view>
+		</view>
+		<view class="username">{{user.username}}</view>
+	</view>
+	<view class="infor-content">
+		<view class="introduction">
+			<view class="introduction-icon">
+				<image src="../../images/intro.png"/>
+				<text>简介:</text>
+			</view>
+			<view class="intro-content" wx:if="{{!editor}}">{{user.introduction}}</view>
+			<view class="intro-content" wx:else><input type="text" bindinput="inputIntro" value="{{user.introduction}}"/></view>
+		</view>
+		<navigator class="about-box" url="../about/about">
+			<view class="about">
+				<image src="../../images/intro.png"/>	
+				<text class="about">关于</text>
+			</view>
+		</navigator>
+		<view class="logout">
+			<text wx:if="{{login}}" bindtap="logout">退出账号</text>
+			<navigator wx:else url="../login/login">登录</navigator>
+		</view>
+	</view>
+</view>

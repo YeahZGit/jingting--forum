@@ -1,0 +1,25 @@
+<view class="detial"> 
+	<view class="title-img" wx:if="{{article.picture_url}}">
+		<image src="{{article.picture_url}}"/>
+	</view>
+	<view class="top-title" wx:if="{{!article.picture_url}}">
+		<text>{{article.title}}</text>
+	</view>
+	<view class="author-infor">
+		<view class="author-name">
+			<image src="{{user.picture_url}}"/>
+			<text>{{user.username}}</text>
+		</view>
+		<view class="author-introduction">
+			<text>{{user.introduction}}</text>
+		</view>
+	</view>
+	<view class="article-content">
+		<view class="article-title" wx:if="{{article.picture_url}}">
+			<text>{{article.title}}</text>
+		</view>
+		<view class="content">
+			<text>{{article.content}}</text>
+		</view>
+	</view>
+</view>

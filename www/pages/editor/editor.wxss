@@ -1,0 +1,43 @@
+page{
+	font-family: 'Microsoft YaHei';
+	font-size: 14px;
+	background-color: white;
+}
+
+.title-picture{
+	width: 100%;
+	height: 100px;
+	overflow: hidden;
+	background-color: rgba(0,0,0,.3);
+	color: #ecf0f1;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.title-picture image{
+	width: 100%;
+}
+
+.release-btn{
+	padding: 3px 10px;
+	text-align: end;
+	position: relative;
+}
+
+.release-btn text{
+	border-radius: 3px;
+	border: 1px solid #bdc3c7;
+	padding: 3px 5px;
+	position: absolute;
+	right: 10px;
+}
+
+.editor{
+	padding: 10px;
+}
+
+.article-title{
+	margin-top: 10px;
+	border-bottom: 1px solid #ecf0f1;
+}

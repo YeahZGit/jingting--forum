@@ -1,0 +1,49 @@
+<view class="home-container">
+  <swiper class="activity" indicator-dots="true" autoplay="true" indicator-color="#95a5a6" indicator-active-color="#ecf0f1" circular="true">
+  	<block wx:for="{{activityList}}">
+	  	<swiper-item>
+        <navigator url="../activity/activity?id={{item._id}}">
+	  		  <image class="activity-img" src="{{item.picture_url}}"/>	 
+        </navigator>
+	  	</swiper-item>
+  	</block>
+  </swiper>
+
+  <view class="specials">
+  	<navigator class="specials-item" wx:for="{{specials}}" url="../detial/detial?id={{item._id}}">
+  		<view class="top-title-box">
+        <text class="top-icon">热门</text>
+        <text class="top-title">{{item.title}}</text>
+      </view>
+  		<view class="top-content">{{item.content}}</view>
+      <!-- <view class="create-infor">
+        <text class="create-user-name">张三</text>
+        <text class="create-time">16:03</text>
+        <image src="../../images/comment.png"/>
+        <text class="comment-count">23</text>
+      </view> -->
+  	</navigator>
+  </view>
+
+  <view class="article-list">
+    <navigator class="article-item" wx:for="{{articleList}}" url="../detial/detial?id={{item._id}}">
+      <view class="article-list-title">
+        <image class="author-pic" src="{{item.user_pic}}" />
+        <text class="release-text">发布了</text>
+        <text>{{item.title}}</text>
+      </view>
+      <view class="article-list-content">
+        <view class="title-img-box" wx:if="{{item.picture_url}}">
+          <image class="title-img" src="{{item.picture_url}}"/>
+        </view>
+        <view class="content">{{item.content}}</view>
+      </view>
+      <!-- <view class="article-comment">
+        <image src="../../images/like.png"/>
+        <text>{{item.like}}</text>
+        <image src="../../images/comment.png"/>
+        <text>23</text>
+      </view> -->
+    </navigator>
+  </view>
+</view>

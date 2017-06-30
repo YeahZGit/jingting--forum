@@ -1,0 +1,14 @@
+<view>
+	<form class="login-form">
+		<view class="username">
+			<input type="text" bindinput="bindUsername" placeholder="用户名"/>
+		</view>
+		<view class="password">
+			<input type="text" bindinput="bindPassword" password="true" placeholder="密码"/>
+		</view>
+		<view class="login-btn">
+			<button bindtap="login">登录</button>
+		</view>
+	</form>
+	<navigator class="register-link" url="../register/register">注册账号</navigator>
+</view>

@@ -1,0 +1,13 @@
+<view class="detial"> 
+	<view class="title-img" wx:if="{{activity.picture_url}}">
+		<image src="{{activity.picture_url}}"/>
+	</view>
+	<view class="article-content">
+		<view class="article-title" wx:if="{{activity.picture_url}}">
+			<text>{{activity.title}}</text>
+		</view>
+		<view class="content">
+			<text>{{activity.content}}</text>
+		</view>
+	</view>
+</view>
